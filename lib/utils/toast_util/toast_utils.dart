@@ -25,16 +25,15 @@ class ToastUtils {
     return OverlayEntry(
       builder: (context) => Positioned(
         bottom: 50.0,
-        // bottom: 50.0,
         width: MediaQuery.of(context).size.width - 20,
         left: 10,
-         child: SlideInToastMessageAnimation(
+        child: SlideInToastMessageAnimation(
           child: Material(
             elevation: 10.0,
             borderRadius: BorderRadius.circular(10),
             child: Container(
-              padding:
-                const  EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 10),
+              padding: const EdgeInsets.only(
+                  left: 10, right: 10, top: 10, bottom: 10),
               decoration: BoxDecoration(
                 color: backgroundColor,
                 borderRadius: BorderRadius.circular(10),

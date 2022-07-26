@@ -7,6 +7,7 @@ const String enterTodoItemTitle = 'Enter your todo item';
 const String typeTextHereTitle = 'Type Text here';
 const String addTodoItemTitle = 'Add todo item';
 const String viewAllTodoItemsTitle = 'View all todo items';
+const String viewDemoUIScreen = 'View Demo UI Screen';
 
 const String errorEnterTodoItemTitle = 'Please enter a todo item';
 const String todoItemAddedSuccessfully = 'Todo item added successfully!';
@@ -16,3 +17,9 @@ const String todoItemAddedSuccessfully = 'Todo item added successfully!';
 const String noTodoItemsTitle = 'No todo items';
 const String todoItemsTitle = 'Todo items';
 const String dummyTimeText = 'today at 7:00pm';
+
+// Demo UI Screen strings
+const String addFundsTitle = 'Add Funds';
+const String dynamicTitle = '• Dynamic';
+const String balanceTitle = 'Balance';
+const String accountTitle = 'Account';

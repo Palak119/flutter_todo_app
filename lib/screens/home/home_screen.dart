@@ -42,6 +42,17 @@ class _HomeScreenState extends State<HomeScreen> {
                   buildAddTodoItemTextFiled(context),
                   verticalSpace(context, 0.08),
                   buildTodoItemButtons(context),
+                  verticalSpace(context, 0.03),
+
+                  /// view demo UI screen
+                  buildCustomButton(
+                    context,
+                    Icons.view_list,
+                    viewDemoUIScreen,
+                    Colors.amber.shade100,
+                    Colors.amber.shade800,
+                    onTap: () => Get.toNamed(demoUIScreen),
+                  ),
                 ],
               ),
             ),

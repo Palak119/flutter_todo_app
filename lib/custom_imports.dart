@@ -12,3 +12,6 @@ export '../../components/appbar_components.dart';
 export '../../styles/app_text_style.dart';
 export '../components/size_components.dart';
 export '../../../utils/remove_glow_effect.dart';
+export 'enum/rate_status_enum.dart';
+export '../../../model/crypto_currency_account.dart';
+export '../../data/crypto_currency_account_data.dart';

@@ -8,11 +8,6 @@ Widget buildTextField(
   bool obscure,
   Color fillColor,
   Color cursorColor,
-  // double borderRadius,
-  // Color enabledBorderSideColor,
-  // Color focusBorderSideColor,
-  // Color borderSideColor,
-
   int maxLength,
   String hint,
   bool isEnabled, {
@@ -58,8 +53,8 @@ Widget buildTextField(
           width: 1,
         ),
       ),
-      hintStyle: bodyMediumTextStyle(context)
-          .copyWith(color: Colors.grey.shade400),
+      hintStyle:
+          bodyMediumTextStyle(context).copyWith(color: Colors.grey.shade400),
       contentPadding: EdgeInsets.only(
         top: sizeHeight(28),
         left: sizeHeight(28),

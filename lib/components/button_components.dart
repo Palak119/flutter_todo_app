@@ -36,3 +36,30 @@ Widget buildCustomButton(BuildContext context, IconData icon, String buttonText,
     ),
   );
 }
+
+Material customInkwellButton(
+  BuildContext context,
+  IconData icon,
+  Color iconColor,
+  Color inkColor,
+  double iconPadding, {
+  required Function onTap,
+}) {
+  return Material(
+    color: Colors.transparent,
+    child: InkWell(
+      highlightColor: inkColor.withOpacity(0.2),
+      splashColor: inkColor.withOpacity(0.4),
+      hoverColor: inkColor.withOpacity(0.2),
+      borderRadius: BorderRadius.circular(6),
+      onTap: () => onTap(),
+      child: Padding(
+        padding: EdgeInsets.all(iconPadding),
+        child: Icon(
+          icon,
+          color: iconColor,
+        ),
+      ),
+    ),
+  );
+}
